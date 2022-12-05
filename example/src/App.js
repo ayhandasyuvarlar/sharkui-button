@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'sharkui-button'
+import { Button} from 'sharkui-button'
 import 'sharkui-button/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Button text="Button"  color={'primary'} handlerClick={console.log('hello world')}/>
 }
 
 export default App
