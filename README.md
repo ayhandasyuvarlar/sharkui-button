@@ -13,16 +13,23 @@ npm install --save sharkui-button
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'sharkui-button'
+import { Button } from 'sharkui-button'
 import 'sharkui-button/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <Button
+      text='Button'
+      color={'primary'}
+      handlerClick={console.log('hello world')}
+    />
+  )
 }
+
+export default App
+
 ```
 
 ## License
