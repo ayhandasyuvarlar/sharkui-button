@@ -9,7 +9,7 @@ const App = () => {
       text='Button'
       color={'primary'}
       handlerClick={console.log('hello world')}
-    />
+    />  
   )
 }
 
